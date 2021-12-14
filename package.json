@@ -13,6 +13,7 @@
     "format": "prettier --write \"**/*.{ts,tsx,md}\""
   },
   "devDependencies": {
+    "@types/lodash": "^4.14.178",
     "prettier": "^2.5.1",
     "turbo": "latest"
   },
@@ -39,5 +40,8 @@
     "npm": ">=7.0.0",
     "pnpm": ">=3.7.0",
     "node": ">=14.0.0"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
   }
 }

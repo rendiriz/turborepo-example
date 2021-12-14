@@ -47,6 +47,15 @@ cd my-turborepo
 npm run dev
 ```
 
+### Add Dependencies
+
+To develop all apps and packages, run the following command:
+
+```
+npx add-dependencies [package_file] <dependencies> [target]
+npm install
+```
+
 ### Remote Caching
 
 Turborepo can use a technique known as [Remote Caching (Beta)](https://turborepo.org/docs/features/remote-caching) to share cache artifacts across machines, enabling you to share build caches with your team and CI/CD pipelines.
